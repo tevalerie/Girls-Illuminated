@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Base shadcn-ui variables */
+    --background: 60 48% 88%;
+    --foreground: 120 4% 15%;
+
+    --card: 60 48% 88%;
+    --card-foreground: 120 4% 15%;
+
+    --popover: 60 48% 88%;
+    --popover-foreground: 120 4% 15%;
+
+    /* Girls Illuminated Brand Colors */
+    --primary: 1 64% 47%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 120 4% 15%;
+    --secondary-foreground: 60 48% 88%;
+
+    --muted: 60 48% 88%;
+    --muted-foreground: 120 4% 15%;
+
+    --accent: 60 48% 88%;
+    --accent-foreground: 1 64% 47%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 120 4% 15%;
+    --input: 120 4% 15%;
+    --ring: 1 64% 47%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 120 4% 15%;
+    --foreground: 60 48% 88%;
+
+    --card: 120 4% 15%;
+    --card-foreground: 60 48% 88%;
+
+    --popover: 120 4% 15%;
+    --popover-foreground: 60 48% 88%;
+
+    --primary: 1 64% 47%;
+    --primary-foreground: 60 48% 88%;
+
+    --secondary: 60 48% 88%;
+    --secondary-foreground: 120 4% 15%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 60 48% 88%;
+
+    --accent: 1 64% 47%;
+    --accent-foreground: 60 48% 88%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 60 48% 88%;
+    --input: 60 48% 88%;
+    --ring: 1 64% 47%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
