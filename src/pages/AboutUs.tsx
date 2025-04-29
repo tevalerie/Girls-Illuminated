@@ -71,7 +71,7 @@ const AboutUs = () => {
               <div className="md:w-1/2">
                 <div className="aspect-square bg-gray-200 rounded-lg overflow-hidden">
                   <img
-                    src="https://images.unsplash.com/photo-1591604021695-0c69b7c05981?w=800&q=80"
+                    src="https://i.imgur.com/ffsV1fe.jpg"
                     alt="Winnielle Pereira and Destinee Guilbert"
                     className="w-full h-full object-cover"
                   />

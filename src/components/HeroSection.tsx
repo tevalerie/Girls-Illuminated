@@ -22,7 +22,7 @@ const HeroSection = ({
   ],
   ctaButtonText = "Learn More",
   secondaryButtonText = "Support Our Mission",
-  backgroundImageUrl = "/hero-background.jpg",
+  backgroundImageUrl = "https://imgur.com/ZqslG8O.jpg",
 }: HeroSectionProps) => {
   const [currentTextIndex, setCurrentTextIndex] = React.useState(0);
 
@@ -48,13 +48,13 @@ const HeroSection = ({
           backgroundRepeat: "no-repeat",
         }}
       >
-        <div className="absolute inset-0 bg-gradient-to-r from-solarYellow via-honeyAmber to-mangoOrange opacity-60" />
+        <div className="absolute inset-0 bg-gradient-to-r from-solarYellow via-honeyAmber to-mangoOrange opacity-80" />
       </div>
 
       {/* Content Container */}
       <div className="relative z-10 flex h-full flex-col items-center justify-center px-4 text-center text-charcoal md:px-8 lg:px-16">
         <motion.h1
-          className="mb-4 text-4xl font-texGyreBonum tracking-wider md:text-5xl lg:text-6xl"
+          className="mb-4 text-4xl font-texGyreBonum font-bold tracking-wider md:text-5xl lg:text-7xl"
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
